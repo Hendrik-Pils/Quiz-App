@@ -15,7 +15,7 @@ body {
   text-align: center;  
   background: white;
   color: black;
-  height: 120px;
+  height: 105px;
   box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
   padding: 10px;
   position: sticky;
@@ -42,7 +42,7 @@ body {
 .card {
   text-align: center;
   height: 400px;  
-  margin: 20px 10%;
+  margin: 35px 10%;
   border: 5px solid #252629;
   padding: 3% 10%;
   scroll-margin-top: 100px;
