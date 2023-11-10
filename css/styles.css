@@ -27,7 +27,9 @@ body {
   margin: 0;
 }
 
-.footer { 
+.footer {
+  display: flex;
+  justify-content: center;
   background: white;
   color: black;
   height: 75px;
@@ -37,18 +39,13 @@ body {
   right: 0;
 }
 
-
-.footer > ul {
-    justify-content: space-around;
-}
+.footer > img {
+  }
 
 
-.footer > ul > li {
-    display: inline;
-    list-style-type: none;
-}
 
 .card {
+  text-align: center;
   height: 400px;  
   margin: 20px 10%;
   border: 5px solid #252629;
@@ -68,8 +65,6 @@ body {
   top: -2rem;
 }
 
-/**
- * The go-to-top button should cover all other elements, so that it is always visible, and
- * unaffected when the document is scrolled.
- */
-
+.answer {
+    padding: 6px 12px;
+}
