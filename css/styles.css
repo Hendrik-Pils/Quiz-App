@@ -69,8 +69,13 @@ body {
     padding: 25px 50px;
 }
 
+.tags {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
 .tag {
     align-items: flex-end;
-    padding: 6px 12px;  
-    position: relative;
+    padding: 6px 12px;
   }
