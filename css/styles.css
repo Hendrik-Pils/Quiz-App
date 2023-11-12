@@ -82,3 +82,25 @@ body {
   padding: 3.5px;
   margin-right: 3px;
 }
+
+.profile > img {
+  align-self: center;
+  max-width: 10%;
+  position: relative;
+  right: 10rem;
+  top: 5rem;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+}
+
+.profile > h2, img {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center
+}
+
