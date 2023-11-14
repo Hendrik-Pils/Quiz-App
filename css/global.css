@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --background_color: #fff;
+  --font_color: #000;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0 45px 0;
+  font-family: system-ui;
+}

@@ -1,0 +1,28 @@
+.profile {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+  }
+  
+  .profile > .profile__intro {
+    display: inline-flex;
+    justify-content: center;
+  }
+  
+  .profile > .profile__intro > h2 {
+   margin-left: 10vw;
+  }
+  
+  .profile > .profile__intro > img {
+    max-width: 10%;
+  }
+  
+  .profile > .profile__content {
+    margin-left: 30vw;
+  }
+  
+  .profile > .profile__content > a {
+    display: block;
+    margin-top: 15px
+  }
