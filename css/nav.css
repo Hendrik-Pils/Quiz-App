@@ -1,7 +1,7 @@
 .header {
     text-align: center;  
-    background-color: var(background_color);
-    color: var(font_color);
+    background-color: white;
+    color: var(font__color);
     height: 60px;
     box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
     padding: 10px;
@@ -17,11 +17,12 @@
   .nav {
     display: flex;
     justify-content: space-around;  
-    background-color: var(background_color);
-    color: var(font_color);
+    background-color: white;
+    color: var(font__color);
     height: 75px;
     position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 1;
   }

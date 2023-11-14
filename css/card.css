@@ -3,7 +3,7 @@
     text-align: center;
     height: 400px;  
     margin: 35px 10%;
-    border: 5px solid #252629;
+    border: 5px solid black;
     padding: 3% 10%;
     scroll-margin-top: 100px;
     position: relative;
@@ -15,7 +15,7 @@
   }
   
   .card__bookmark {
-    background-color: var(background_color);;
+    background-color: var(background__color);
     padding: 6px 12px;  
     position: absolute;
     right: 2rem;
@@ -34,9 +34,9 @@
   }
   
   .tags > a {
-    color: var(font_color);
+    color: var(font__color);
     background-color: silver;
-    border: 1.5px solid var(font_color);
+    border: 1.5px solid black;
     border-radius: 5px;
     text-decoration: none;
     padding: 3.5px;
