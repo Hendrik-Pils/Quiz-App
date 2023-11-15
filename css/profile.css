@@ -11,11 +11,12 @@
   }
   
   .profile > .profile__intro > h2 {
-   margin-left: 10vw;
+  padding: 50px;
   }
   
   .profile > .profile__intro > img {
-    max-width: 10%;
+    max-width: 150px;
+    min-width: 150px;
   }
   
   .profile > .profile__content {
@@ -25,4 +26,9 @@
   .profile > .profile__content > a {
     display: block;
     margin-top: 15px
+  }
+
+  .dark__mode {
+    display: inline-flex;
+    gap: 15vw;
   }

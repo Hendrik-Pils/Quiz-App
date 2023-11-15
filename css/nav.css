@@ -26,3 +26,13 @@
     right: 0;
     z-index: 1;
   }
+
+  nav.dark {
+    background-color: #000;
+    color: #ffffff;
+  }
+
+  header.dark {
+    background-color: #000;
+    color: #ffffff;
+  }
